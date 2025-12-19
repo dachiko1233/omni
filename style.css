@@ -292,11 +292,19 @@ how style
 }
 
 .sec-title{
+    display: block;
     color: #e67e22;
     font-size: 1.6rem;
     text-transform: uppercase;
     font-weight: 600;
+    margin-bottom: 1.6;
+    letter-spacing: -0.5px;
+    margin-bottom: 1.6rem;
 
+}
+
+.center-text{
+    text-align: center;
 }
 
 .section-title{
@@ -343,4 +351,49 @@ how style
 .how-dec{
     font-size: 1.8rem;
     line-height: 1.8;
+}
+
+/*
+********************************
+meal  style
+********************************
+*/
+
+.section-meal{
+    padding:  9.6rem 0;
+}
+
+.meal-grid-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.meal{
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+}
+
+.meal-contect{
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.meal-attribute{
+
+    display: flex;
+    font-size: 1.8rem;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.meal-list{
+    list-style: none;
+    display: flex; 
+    flex-direction: column; 
+    gap: 2rem;
+}
+
+.meal-img{
+    width: 100%;
 }
