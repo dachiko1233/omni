@@ -4,6 +4,9 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Omnifood</title>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
@@ -31,7 +34,7 @@
                 </li>
 
                 <li>
-                    <a class="main-nav-link nav-btn" href="#"">Try for free</a>
+                    <a class="main-nav-link nav-btn" href="#">Try for free</a>
                 </li>
 
 
@@ -119,8 +122,8 @@
 
                         <h2 class="how-title">Approve your weekly meal plan<h2>
 
-                        <p class="how-dec">Once per week, approve the meal plan generated for you by Omnifood AI. You can change ingredients, swap entire meals, or even add your own recipes. </p>
-
+                        <p class="how-dec">Once per week, approve the meal plan generated for you by Omnifood AI. You can change ingredients, swap entire meals, or even add your own recipes.
+                        </p>
                     </div>
 
                     <!-- number 03 -->
@@ -155,31 +158,104 @@
 
                         <div class="meal-contect">
 
-                            <div>
-                                <span>vegetarian</span>
+                            <div class="meal-tag">
+                                <span class="tag tag-color">vegetarian</span>
                             </div>
-                            <p>Japanese Gyozas</p>
+                            <p class="meal-name">Japanese Gyozas</p>
                             <ul class="meal-list">
                                 <li class="meal-attribute">
-                                    <strong>650</strong> calories
+                                    <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                    <span><strong>650</strong> calories</span>  
                                 </li>
                                <li class="meal-attribute">
-                                    NutriScore <strong>74</strong>
+                                    <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                    <span>NutriScore &reg; <strong> 74</strong></span>
                                </li>
                                <li class="meal-attribute">
-                                    <strong>4.9 rating(537))</strong>
+                                    <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                    <span><strong>4.9</strong> rating(411)</span>    
                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="meal">
+                      <div class="meal">
                         <img class="meal-img" src="./meals/meal-2.jpg" />
+
+                        <div class="meal-contect">
+
+                            <div class="meal-tag">
+                                <span class="tag tag-color">vegan</span>
+                                <span class="tag paleo-color">paleo</span>
+                            </div>
+                            <p class="meal-name">Japanese Gyozas</p>
+                            <ul class="meal-list">
+                                <li class="meal-attribute">
+                                    <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                    <span><strong>650</strong> calories</span>  
+                                </li>
+                               <li class="meal-attribute">
+                                    <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                    <span>NutriScore &reg; <strong> 92</strong></span>
+                               </li>
+                               <li class="meal-attribute">
+                                    <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                    <span><strong>5.1</strong> rating(533)</span>    
+                               </li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div>
-                        text
+                        <h3 class="diet-title">Works with any diet:</h3>
+
+                        <ul class="meal-diet">
+                            <li class="diet-list">
+                                <ion-icon class="meal-icon" name="checkmark-outline"></ion-icon>
+                                <span>Vegetarian</span>
+                            </li>
+                            <li class="diet-list">
+                                <ion-icon class="meal-icon" name="checkmark-outline"></ion-icon>
+                                <span>Vegan</span>
+                            </li>
+                            <li class="diet-list">
+                                <ion-icon class="meal-icon" name="checkmark-outline"></ion-icon>
+                                <span>Pescatarian</span>
+                            </li>
+                            <li class="diet-list">
+                                <ion-icon class="meal-icon" name="checkmark-outline"></ion-icon>
+                                <span>Gluten-free</span>
+                            </li>
+                            <li class="diet-list">
+                                <ion-icon class="meal-icon" name="checkmark-outline"></ion-icon>
+                                <span>Lactose-free</span>
+                            </li>
+                            <li class="diet-list">
+                                <ion-icon class="meal-icon" name="checkmark-outline"></ion-icon>
+                                <span>keto</span>
+                            </li>
+
+                            <li class="diet-list">
+                                <ion-icon class="meal-icon" name="checkmark-outline"></ion-icon>
+                                <span>Paleo</span>
+                            </li>
+                            <li class="diet-list">
+                                <ion-icon class="meal-icon" name="checkmark-outline"></ion-icon>
+                                <span>Low FODMAP</span>
+                            </li>
+
+                            <li class="diet-list">
+                                <ion-icon class="meal-icon" name="checkmark-outline"></ion-icon>
+                                <span>Kid-Friendly</span>
+                            </li>
+                        </ul>
                     </div>
+
+            
                 </div>
+
+            </div>
+            <div class="container all-recepis">
+                <a href="#" class="link">See all recipes &rarr;</a>
             </div>
         </section>
 
