@@ -300,7 +300,6 @@ how style
     font-size: 1.6rem;
     text-transform: uppercase;
     font-weight: 600;
-    margin-bottom: 1.6;
     letter-spacing: -0.5px;
     margin-bottom: 1.6rem;
 
@@ -511,4 +510,66 @@ meal  style
 .link:hover, .link:active{
     color: #cf711f;
     border-bottom: 1px solid transparent;
+}
+
+/*
+********************************
+how style
+********************************
+*/
+
+.section-test{
+    background-color: #fdf2e9;
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    align-items: center;
+}
+
+.test-container{
+    padding: 9.6rem ;
+}
+
+.test-span{
+    display: block;
+    font-size: 1.6rem;
+    color: #cf711f;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    margin-bottom: 1.6rem;
+
+}
+
+.test-title{
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+}
+
+.test-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4.8rem;
+    column-gap: 8rem;
+}
+
+.test-img{
+    width: 6.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+}
+
+.test-text{
+    font-size: 1.8rem;
+    line-height: 1.8; 
+
+    margin-bottom: 1.6rem;
+}
+
+.test-name{
+    font-size: 1.6rem;
+    color: #6f6f6f;
 }
