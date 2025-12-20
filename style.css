@@ -662,7 +662,7 @@ Pricing  style
 
 .plan-price span{
     font-size: 3rem;
-    font-weight: 500;
+    font-weight: 700;
     margin-right: 0.8rem;
 }
 
@@ -710,6 +710,10 @@ Pricing  style
     font-family: inherit;
     color: #fff;
     transition: all 0.3s;
+}
+
+.test-btn:hover{
+    background-color: #cf711f;
 }
 
 .pricing-plan--complete{
