@@ -736,3 +736,49 @@ Pricing  style
     padding: 0.8rem 8rem;
     transform: rotate(45deg);
 }
+
+
+.text-grid{
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+    margin-bottom: 9.6rem;
+}
+
+.text-grid:not(:last-child){
+    margin-bottom: 9.6rem;
+}
+
+.plan-detals{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.pri-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.6rem; 
+}
+
+.pri-title{
+    font-size: 2.4rem;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+
+.pri-text{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.icon-style{
+    color: #e67e22;
+    background-color: #fdf2e9;
+    height: 3.2rem;
+    width: 3.2rem;
+    margin-bottom: 3.2rem;
+    padding: 1.6rem;
+    border-radius: 50%;
+}
